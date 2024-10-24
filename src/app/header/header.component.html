@@ -1,0 +1,28 @@
+<header class="main-header">
+    <h1 class="main-header__title">
+        <span class="main-header__title--blue">J</span><span class="main-header__title--red">C </span><span class="main-header__title--orange">Embalagens</span>
+    </h1>
+    <div class="container-menu">
+    <nav class="main-header__menu">
+        <ul>
+            <li>
+                <a href="/produtos">Produtos</a>
+            </li>
+                <li>
+                    <a href="/carrinho">
+                        
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Carrinho
+                        <span class="badge-carrinho">{{carrinhoService.obtemCarrinho().length}}</span>
+                    </a></li>
+                    
+                <li>
+                    <a href="/contato">Contato</a></li>
+                <li>
+                    <a><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a><i class="fa-brands fa-instagram"></i></a></li>            
+        </ul>
+    </nav>
+    <app-barra-pesquisa></app-barra-pesquisa>
+    </div>
+</header> 
