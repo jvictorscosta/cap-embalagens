@@ -9,7 +9,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./produtos.component.css']
 })
 export class ProdutosComponent implements OnInit {
-produtos: IProduto[] |undefined;
+produtos: IProduto[] | undefined;
   constructor(
     private produtosService: ProdutosService,
     private route: ActivatedRoute
